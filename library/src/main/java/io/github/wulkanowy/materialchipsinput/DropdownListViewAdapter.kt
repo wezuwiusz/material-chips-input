@@ -81,8 +81,8 @@ internal class DropdownListViewAdapter(private val context: Context) :
                 filteredList.addAll(originalList
                     .map {
                         val ratio = FuzzySearch.tokenSortPartialRatio(
-                            constraint.toString().toLowerCase().trim(),
-                            it.title.toLowerCase()
+                            constraint.toString().lowercase().trim(),
+                            it.title.lowercase()
                         )
 
                         Pair(it, ratio)

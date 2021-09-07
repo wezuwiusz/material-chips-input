@@ -35,7 +35,7 @@ private val materialColors = listOf(
 
 @SuppressLint("DefaultLocale")
 fun createLetterBitmap(context: Context, text: String): Bitmap {
-    val firstChar = (text.firstOrNull { it.isLetterOrDigit() } ?: "?").toString().toUpperCase()
+    val firstChar = (text.firstOrNull { it.isLetterOrDigit() } ?: "?").toString().uppercase()
     val bounds = Rect()
     val dimension = context.dpToPx(32f).toInt()
     val paint = TextPaint().apply {

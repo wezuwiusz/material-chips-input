@@ -15,7 +15,7 @@ class MaterialChipEditText : AppCompatEditText {
 
     constructor(context: Context, attr: AttributeSet, defStyleAttr: Int) : super(context, attr, defStyleAttr)
 
-    override fun onCreateInputConnection(outAttrs: EditorInfo): InputConnection {
+    override fun onCreateInputConnection(outAttrs: EditorInfo): InputConnection? {
         val connection = super.onCreateInputConnection(outAttrs)
 
         with(outAttrs) {
