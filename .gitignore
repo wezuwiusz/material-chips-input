@@ -48,6 +48,7 @@ captures/
 .idea/caches
 .idea/modules.xml
 .idea/jarRepositories.xml
+.idea/deploymentTargetDropDown.xml
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
