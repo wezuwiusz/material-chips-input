@@ -31,4 +31,3 @@ class MainActivity : AppCompatActivity() {
 }
 
 data class SampleChipItem(override val title: String, override val summary: String) : ChipItem
-
