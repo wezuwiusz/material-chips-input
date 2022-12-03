@@ -1,1 +1,18 @@
 include ':sample', ':library'
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            version('library', '2.3.2-SNAPSHOT')
+
+            library('androidx-appcompat', 'androidx.appcompat:appcompat:1.5.1')
+            library('androidx-recyclerview', 'androidx.recyclerview:recyclerview:1.2.1')
+            library('androidx-core', 'androidx.core:core-ktx:1.9.0')
+
+            library('material-components', 'com.google.android.material:material:1.7.0')
+
+            library('circleimageview', 'de.hdodenhof:circleimageview:3.1.0')
+            library('fuzzywuzzy', 'me.xdrop:fuzzywuzzy:1.4.0')
+        }
+    }
+}
