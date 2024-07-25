@@ -2,14 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
-
     namespace 'io.github.wulkanowy.materialchipsinput.sample'
     defaultConfig {
-        applicationId "io.github.wulkanowy.materialchipsinput.sample"
-        minSdkVersion 15
-        targetSdkVersion 33
-        versionCode 13
+        applicationId "ovh.pzpl.wezuwiusz.materialchipsinput.sample"
+        minSdkVersion 21
+        targetSdkVersion 34
+        compileSdk 34
+        versionCode 14
         versionName libs.versions.library.get()
     }
 
@@ -21,12 +20,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 
     buildFeatures {

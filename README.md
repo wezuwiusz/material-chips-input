@@ -5,7 +5,7 @@
 [![JitPack](https://img.shields.io/jitpack/v/wulkanowy/material-chips-input.svg?style=flat-square)](https://jitpack.io/#wulkanowy/material-chips-input)
 [![Discord](https://img.shields.io/discord/390889354199040011.svg?style=flat-square)](https://discord.gg/vccAQBr)
 
-Fork of an unsupported library which makes working with chips easier. Library adapted only for the Wulkanowy application
+Fork of an unsupported library which makes working with chips easier. Library adapted only for the Wezuwiusz application
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ repositories {
 
 ```groovy
 dependencies {
-  implementation 'com.github.wulkanowy:material-chips-input:${lastCommitHash}'
+  implementation 'com.github.wezuwiusz:material-chips-input:${lastCommitHash}'
 }
 ```
 
